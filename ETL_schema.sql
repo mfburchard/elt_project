@@ -5,7 +5,7 @@
 CREATE TABLE "seconds_count" (
     "candidate_id" int   NOT NULL,
     "candidate" varchar(100)   NOT NULL,
-    "speech_length" int   NOT NULL,
+    "speech_length" decimal   NOT NULL,
     CONSTRAINT "pk_seconds_count" PRIMARY KEY (
         "candidate_id"
      )
