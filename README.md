@@ -5,6 +5,10 @@ Proposal: List of ten word groups (e.g. healthcare, education, social, legal, ec
 
 Data sources:</br>
 https://www.kaggle.com/brandenciranni/democratic-debate-transcripts-2020
-https://projects.fivethirtyeight.com/2020-primary-data/pres_primary_avgs_2020.csv
+https://projects.fivethirtyeight.com/2020-primary-data/pres_primary_avgs_2020.csv</br>
 
+The debate transcript csv had to be cleaned by filtering for New Hampshire Debate only, candidates for that debate only, and then two differnt types of data transformations were performed. First, the total number of speech seconds for each candidate was summed and turned into a csv for export. Second, the actual speech portion was normalized and frequency of words from nine word lists was calculated for each candidate. This data was then converted into a csv for export.</br>
+The polling data csv was cleaned by removing extraneous candidates and dates. The data was then cleaned and pivoted before creating a csv for export.</br>
+
+A relational database consisting of three tables with a primary key 'candidate_id' was created in postgresql.</br>
 
