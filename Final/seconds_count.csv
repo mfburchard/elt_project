@@ -1,8 +1,8 @@
-Candidate,Speech_Length
-Biden,1188.0
-Buttigieg,1102.0
-Klobuchar,992.0
-Sanders,1209.0
-Steyer,832.0
-Warren,959.0
-Yang,494.0
+candidate_id,candidate,speech_length
+1,Biden,1188.0
+2,Buttigieg,1102.0
+3,Klobuchar,992.0
+4,Sanders,1209.0
+5,Steyer,832.0
+6,Warren,959.0
+7,Yang,494.0
