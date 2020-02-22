@@ -10,5 +10,5 @@ https://projects.fivethirtyeight.com/2020-primary-data/pres_primary_avgs_2020.cs
 The debate transcript csv had to be cleaned by filtering for New Hampshire Debate only, candidates for that debate only, and then two different types of data transformations were performed. First, the total number of speech seconds for each candidate was summed and turned into a csv for export. Second, the actual speech portion was normalized and frequency of words from nine word lists was calculated for each candidate. This data was then converted into a csv for export.</br>
 The polling data csv was cleaned by removing extraneous candidates and dates. The data was then cleaned and pivoted before creating a csv for export.</br>
 
-A relational database consisting of three tables (csvs located in 'Final', schema included) with a primary key 'candidate_id' for each table was created in postgresql. We chose the relational database, as our final csv's simple structure seemed to lend itself to that.</br>
+A relational database consisting of three tables (csvs located in 'Final') with a primary key 'candidate_id' for each table was created in postgresql (schema in main folder). We chose the relational database, as our final csv's simple structure seemed to lend itself to that.</br>
 
