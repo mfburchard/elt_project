@@ -2,6 +2,15 @@
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
 
+CREATE TABLE "seconds_count" (
+    "candidate_id" int   NOT NULL,
+    "candidate" varchar(100)   NOT NULL,
+    "speech_length" int   NOT NULL,
+    CONSTRAINT "pk_seconds_count" PRIMARY KEY (
+        "candidate_id"
+     )
+);
+
 CREATE TABLE "poll_count" (
     "candidate_id" int   NOT NULL,
 	"candidate" varchar(100)   NOT NULL,
